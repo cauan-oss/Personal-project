@@ -38,7 +38,7 @@ body {
 }
 /* amanha arrumamos essa parte da caixa */
     
-input {
+#inbox {
     background: #ffffff;
     border-radius: 20%;
     width: 330px;
@@ -63,11 +63,19 @@ input {
     width: 170px;
     height: 59px;
     position: absolute;
-    top: 135%;
+    top: 125%;
     right: 20%;
     margin-left: 40%;
     border-bottom: 20%;
     border-radius: 20%;
+}
+
+.inputs-box {
+  font-family: 'Poppins', sans-serif;
+}
+
+#working {
+    
 }
 
 

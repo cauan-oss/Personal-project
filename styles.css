@@ -72,11 +72,19 @@ body {
 
 .inputs-box {
   font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
 }
 
 #working {
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 
 
 

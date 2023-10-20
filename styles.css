@@ -7,7 +7,7 @@ body {
     font-family: 'Poppins';
     src: url('./config/Poppins-Regular.ttf');
 }
-
+/*titulo Account login*/
 .paragraph {
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -16,7 +16,7 @@ body {
     padding-left: 8%;
     padding-top: 4%;
 }
-/* comentario para o git */
+/* Caixa transparentes com o formulario de login*/
 .space-login {
     
     width: 280px;
@@ -31,13 +31,12 @@ body {
     justify-content: center;
     
 }
-
+/*Fontes de todos os textos*/
 #title {
     font-family: 'Poppins';
     color: black;
 }
-/* amanha arrumamos essa parte da caixa */
-    
+/* inputs de email e password*/
 #inbox {
     background: #ffffff;
     border-radius: 20px;
@@ -56,7 +55,7 @@ body {
     top: 25%;
     left: 35%;
 }
-
+/*the single button*/
 #botao {
     display: inline;
     justify-content: center;
@@ -72,6 +71,7 @@ body {
     border-radius: 20px;
 }
 
+/*remenber password*/
 .inputs-box {
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -79,7 +79,7 @@ body {
   align-items: center;
  
 }
-
+/*container the remenber password and fogot password*/
 #working {
     display: flex;
     justify-content: space-between;
@@ -92,4 +92,96 @@ body {
 
 
 
+@media screen and (max-width: 1260px){
+    .space-login {
+    
+        width: 240px;
+        height: 110px;
+        margin-left: 28%;
+        margin-top: 2%;
+        border-radius: 10%;
+        padding: 10%;
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    inputs-position {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+    #inbox {
+        border-radius: 20px;
+        width: 300px;
+        height: 30px;
+            border: 1px solid #ccc; /* Adiciona uma borda para destacar o input */
+            padding: 3px; /* Adiciona algum espaçamento interno para o texto */
+        text-align:start;
+        font-size: 13px;
+    }
+    #botao {
+        font-family: 'Poppins', sans-serif;
+        width: 150px;
+        height: 39px;
+        position: absolute;
+        top: 115%;
+        right: 25%;
+        margin-left: 40%;
+        border-bottom: 20%;
+        border-radius: 20px;
+    }
+}
 
+
+@media screen and (max-width: 1200px){
+    #title {
+        font-size: 14px;
+    }
+    .paragraph {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        width: 220px;
+        height: 35px;
+        padding-left: 6%;
+        padding-top: 5%;
+    }
+    .space-login {
+    
+        width: 220px;
+        height: 100px;
+        margin-left: 28%;
+        margin-top: 2%;
+        border-radius: 10%;
+        padding: 10%;
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    inputs-position {
+        position: absolute;
+        top: 0,5%;
+        left: 0,5%;
+    }
+    #inbox {
+        border-radius: 15px;
+        width: 280px;
+        height: 25px;
+            border: 1px solid #ccc; /* Adiciona uma borda para destacar o input */
+            padding: 3px; /* Adiciona algum espaçamento interno para o texto */
+        text-align:start;
+        font-size: 10px;
+    }
+    #botao {
+        font-family: 'Poppins', sans-serif;
+        width: 150px;
+        height: 39px;
+        position: absolute;
+        top: 100%;
+        right: 25%;
+        margin-left: 30%;
+        border-bottom: 15%;
+        border-radius: 20px;
+    }
+}

@@ -19,8 +19,8 @@ body {
 /* comentario para o git */
 .space-login {
     
-    width: 300px;
-    height: 200px;
+    width: 260px;
+    height: 120px;
     background: rgba(217, 217, 217, 37%);
     margin-left: 28%;
     margin-top: 2%;
@@ -40,12 +40,12 @@ body {
     
 #inbox {
     background: #ffffff;
-    border-radius: 20%;
+    border-radius: 20px;
     width: 330px;
     height: 40px;
-        background-color: rgba(255, 255, 255, 0.5); /* Define a cor com opacidade */
-        border: 1px solid #ccc; /* Adiciona uma borda para destacar o input */
-        padding: 5px; /* Adiciona algum espaçamento interno para o texto */
+    background-color: rgba(255, 255, 255, 0.5); /* Define a cor com opacidade */
+    border: 1px solid #ccc; /* Adiciona uma borda para destacar o input */
+    padding: 5px; /* Adiciona algum espaçamento interno para o texto */
       
    
 }
@@ -61,13 +61,13 @@ body {
     background-color: #00FF0A;
     font-family: 'Poppins', sans-serif;
     width: 170px;
-    height: 59px;
+    height: 49px;
     position: absolute;
-    top: 125%;
-    right: 20%;
+    top: 115%;
+    right: 25%;
     margin-left: 40%;
     border-bottom: 20%;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 
 .inputs-box {
@@ -82,6 +82,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 5%;
 }
 
 
